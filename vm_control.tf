@@ -10,7 +10,7 @@ module "talos_control_mac_address" {
   count = var.control_nodes
 
   source  = "goarano/mac-address/random"
-  version = "0.0.4"
+  version = "0.0.5"
 }
 
 resource "proxmox_virtual_environment_vm" "talos_control" {

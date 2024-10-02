@@ -1,13 +1,13 @@
 module "talos_control_ipv6_subnet_pod" {
   source  = "goarano/ipv6-subnet/random"
-  version = "0.0.3"
+  version = "0.0.4"
 
   prefix = 64
 }
 
 module "talos_control_ipv6_subnet_service" {
   source  = "goarano/ipv6-subnet/random"
-  version = "0.0.3"
+  version = "0.0.4"
 
   prefix = 108
 }
